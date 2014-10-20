@@ -22,12 +22,16 @@ package com.freshplanet.nativeExtensions;
 import java.util.HashMap;
 import java.util.Map;
 
+import android.util.Log;
+
 import com.adobe.fre.FREContext;
 import com.adobe.fre.FREFunction;
 
 public class ExtensionContext extends FREContext
 {	
-	public ExtensionContext() {}
+	public ExtensionContext() {
+		Log.e("ANE", "init Extenstion Context");
+	}
 	
 	@Override
 	public void dispose()

@@ -28,7 +28,7 @@ package com.freshplanet.nativeExtensions
 			{
 				if (this.isPushNotificationSupported)
 				{
-					
+					trace("Init push notification actionscript.");
 					extCtx = ExtensionContext.createExtensionContext("com.freshplanet.AirPushNotification", null);
 				
 					if (extCtx != null)

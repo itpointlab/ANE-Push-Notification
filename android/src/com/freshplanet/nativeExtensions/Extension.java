@@ -38,6 +38,7 @@ public class Extension implements FREExtension {
 	
 	public FREContext createContext(String extId)
 	{
+		Log.e("ANE", "createContext ex".concat(extId));
 		return context = new ExtensionContext();
 	}
 
